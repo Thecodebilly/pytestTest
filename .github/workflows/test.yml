@@ -1,5 +1,5 @@
 name: Run Python Tests
-on: push
+on:
   push:
     branches:
       - master
@@ -21,5 +21,4 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       - name: Run tests with pytest
-        run: pytest
-
+        run: pytest 
