@@ -10,3 +10,4 @@ def test_capitalize_string():
 
 print("hello world")
 print("hello world")
+print("hello world")
