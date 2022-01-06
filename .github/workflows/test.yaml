@@ -1,6 +1,5 @@
 name: Run Python Tests
 on: [push, pull_request]
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,3 +10,4 @@ jobs:
         with:
           python-version: 3.8
       - name: Run tests with pytest
+        run: pytest 
